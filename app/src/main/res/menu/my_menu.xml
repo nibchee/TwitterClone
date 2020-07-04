@@ -15,5 +15,6 @@
         android:title="Send Tweet"
         android:id="@+id/sendTweetItem"
         android:icon="@drawable/send"
-        android:orderInCategory="100"/>
+        android:orderInCategory="100"
+        app:showAsAction="always"/>
     </menu>
