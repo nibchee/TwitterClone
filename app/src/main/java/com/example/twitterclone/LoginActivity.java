@@ -100,9 +100,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     }
     private void transitionToSocialMediaActivity()
     {
-       // Intent intent=new Intent(LoginAvtivity.this,SocialMediaActivity.class);
-       // finish();
-        //startActivity(intent);
+       Intent intent=new Intent(LoginActivity.this,TwitterUsersActivity.class);
+        finish();
+        startActivity(intent);
 
         //to finish the current activity
 

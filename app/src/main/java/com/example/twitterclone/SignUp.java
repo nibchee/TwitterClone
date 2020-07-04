@@ -104,6 +104,7 @@ public class SignUp extends AppCompatActivity implements  View.OnClickListener {
 
     //Not to display keyboard if user taps on Empty area
 
+
     public void rootLayoutTapped(View v) {
         try {
             InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
@@ -117,9 +118,9 @@ public class SignUp extends AppCompatActivity implements  View.OnClickListener {
 
     private void transitionToSocialMediaActivity()
     {
-       // Intent intent=new Intent(SignUp.this,SocialMediaActivity.class);
-        //finish();
-        //startActivity(intent);
+        Intent intent=new Intent(SignUp.this,TwitterUsersActivity.class);
+        finish();
+        startActivity(intent);
 
     }
 }
